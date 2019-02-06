@@ -1,0 +1,14 @@
+创建新的页面，比如resume
+hexo new page "resume"
+
+创建新的博客：
+hexo new "newblog"
+vim ~/Documents/github/hexo/source/_posts/newblog.md
+sudo hexo g
+sudo hexo d
+
+如果不能deploy,那么需要更新一下ssh key
+ssh-agent -s
+ssh-add ~/.ssh/id_rsa
+
+如果hexo的命令失效了，那么进入hexo路径下输入npm update
